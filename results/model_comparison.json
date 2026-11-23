@@ -1,0 +1,32 @@
+[
+  {
+    "model":"MLP",
+    "parameters":235146,
+    "hand_flops":469504,
+    "thop_macs":234752.0,
+    "test_accuracy":0.8852,
+    "test_loss":0.3238139542,
+    "batch_1_ms":0.0987999374,
+    "batch_128_ms":0.3621500218
+  },
+  {
+    "model":"CNN",
+    "parameters":20490,
+    "hand_flops":2063488,
+    "thop_macs":1031744.0,
+    "test_accuracy":0.898,
+    "test_loss":0.2899652688,
+    "batch_1_ms":0.3325000289,
+    "batch_128_ms":8.9260500972
+  },
+  {
+    "model":"Attention",
+    "parameters":70794,
+    "hand_flops":2329856,
+    "thop_macs":591488.0,
+    "test_accuracy":0.8414,
+    "test_loss":0.4456912386,
+    "batch_1_ms":0.8242000476,
+    "batch_128_ms":3.30760004
+  }
+]
